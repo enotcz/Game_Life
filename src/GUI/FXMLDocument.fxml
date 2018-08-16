@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane maxHeight="1050.0" maxWidth="1000.0" minHeight="450.0" minWidth="400.0" prefHeight="550.0" prefWidth="500.0" scaleShape="false" xmlns="http://javafx.com/javafx/9.0.4" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.FXController">
+   <children>
+      <Pane fx:id="pane" prefHeight="400.0" prefWidth="400.0" scaleShape="false" style="-fx-background-color: #cccccc;" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <cursor>
+            <Cursor fx:constant="CROSSHAIR" />
+         </cursor></Pane>
+      <Button fx:id="bStartID" layoutX="14.0" layoutY="409.0" mnemonicParsing="false" onAction="#bStart" text="Start" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="14.0" />
+      <Label layoutX="265.0" layoutY="514.0" text="Count of life cycles:" AnchorPane.bottomAnchor="19.0" AnchorPane.leftAnchor="265.0" />
+      <Label fx:id="count" layoutX="394.0" layoutY="514.0" prefHeight="17.0" prefWidth="32.0" text="0" AnchorPane.bottomAnchor="19.0" AnchorPane.leftAnchor="394.0" />
+      <Button layoutX="76.0" layoutY="410.0" mnemonicParsing="false" onAction="#bRandom" text="Random" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="76.0" />
+      <Button layoutX="159.0" layoutY="509.0" mnemonicParsing="false" onAction="#bClear" text="Clear" />
+   </children>
+</AnchorPane>
